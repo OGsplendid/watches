@@ -1,0 +1,16 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid green;
+}

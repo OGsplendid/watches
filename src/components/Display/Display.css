@@ -1,0 +1,7 @@
+.display-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    min-height: 500px;
+    padding: 100px;
+}
