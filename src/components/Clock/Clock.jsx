@@ -2,15 +2,26 @@ import './Clock.css'
 import { Component } from "react";
 
 // interface IClockProps {
+//   key: string,
+//   city: string,
 //   time: string,
-//   timerId: string,
+//   id: string,
+//   onClick: (e: React.MouseEvent<HTMLButtonElement>) => void,
 // }
 
-// interface IClock {
-//   timerId: string | number,
-  
+// interface IClockState {
+//   city: string,
+//   time: string,
 // }
 
+// export default class Clock extends Component<IClockProps, IClockState> {
+//   constructor(props: IClockProps) {
+//     super(props);
+//     this.state = {
+//       city: props.city,
+//       time: props.time,
+//     };
+//   }
 export default class Clock extends Component {
   constructor(props) {
     super(props);
